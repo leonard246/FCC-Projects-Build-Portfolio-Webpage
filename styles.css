@@ -1,0 +1,91 @@
+body {
+	font-family: "Open Sans", Helvetica;
+}
+
+.centralise {
+	text-align: center;
+	justify-self: center; 
+}
+
+ul {
+	list-style: none;
+	display: flex;
+	float: right;
+}
+
+li {
+	padding: 0 40px 0 40px;
+	font-size: 1.1rem;
+}
+
+h1 {
+	font-size: 1.7rem;
+	font-weight: bold;
+}
+
+h3 {
+	color: green;
+}
+
+img {
+	width: auto;
+	height: 180px;
+}
+
+
+button:hover {
+	background-color: #b3bcb9;
+}
+
+footer {
+	background-color: #b3bcb9;
+	padding: 10px 0 10px 0;
+}
+
+#navbar {
+	position: fixed;
+	right: 5vw;
+}
+
+#welcome-section {
+	background-color: #e0ebe8;
+	/*height: 1014px;*/
+	height: 100vh;
+}
+
+#intro {
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	height: 25vw;
+	width: 100%
+}
+
+#projectsSecTitle {
+	background-color: white;
+	color: #008080;
+}
+
+#projects {
+	display: grid;
+	grid-template-rows: 1fr 1fr; 
+	grid-template-columns: repeat(3,1fr);
+	text-align: center;
+	font-weight: bold;
+	color: #008080;
+	grid-row-gap: 5vw;
+}
+
+#profileContainer {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	text-align: center;
+	background-color: #e0ebe8;
+	padding-bottom: 3%;
+}
+
+#contact {
+	background-color: #e0ebe8;
+	padding: 10px 0 0px 0;
+}
+

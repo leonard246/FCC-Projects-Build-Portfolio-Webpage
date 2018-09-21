@@ -4,19 +4,75 @@
 	<title>Personal Portfolio Webpage</title>
 	<link rel="stylesheet" type="text/css" href="./styles.css">
 	<script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" defer></script>
+	<!-- Media query embedded as Media query in linked file not detected  -->
+	<style type="text/css">@media (min-height: 500px) { #navbar {} }</style>
 </head>
 <body>
-	<nav id="navbar">
-		<a href=""></a>
-		<a href=""></a>
-		<a href=""></a>
-	</nav>
-
 	<div id="welcome-section">
-		<h1>Welcome</h1>
+		<nav id="navbar">
+			<ul>
+				<li> <a href="#projectContainer">Work</a></li>
+				<li> <a href="#contact">Contact</a></li>
+				<li> <a href="#about">Footer</a></li>
+			</ul>
+		</nav>
+		<br>
+		<div id="intro">
+			<h1>This is a Free Code Camp Project</h1>
+		</div>
+		<div class="centralise">
+			<h3>To Build A Portfolio Webpage</h3>
+		</div>
 	</div>
+	<div id="projectsSecTitle" class="centralise">
+		<div>
+			<h1>Some sample projects..</h1>
+		</div>
+	</div>
+	<br><br>
 	<div id="projects">
-		<div class="project-tile"></div>
+		<div>
+			<img src="https://cloud.githubusercontent.com/assets/15967809/17642794/d084d718-6171-11e6-83fa-ede5d0a67ad2.png"><br>
+			<a class="project-tile" href="https://leonard246.github.io/FCC-Projects-RWD-Build-A-Tribute-Page/" target="_blank">Tribute Page</a>
+		</div>
+		<div>
+			<img src="https://camo.envatousercontent.com/026a65bc143f4ab99317dd959d53eb76af441e43/687474703a2f2f686172626f75727468656d65732e636f6d2f707265766965775f696d616765732f6f6c6c692f6f6c6c692d68746d6c2d707265766965772d6865616465722e6a7067"><br>
+			<a href="https://leonard246.github.io/FCC-Projects-RWD-Product-Landing-Page/" target="_blank">Product Landing Page</a>
+		</div>
+		<div>
+			<img src="https://previews.123rf.com/images/rawpixel/rawpixel1704/rawpixel170439023/76344855-customer-satisfaction-online-survey-form.jpg"><br>
+			<a href="https://leonard246.github.io/FCC-Projects-RWD-Survery-Form/" target="_blank">Survey Form</a>
+		</div>
+		<div>
+			<img src="https://3kllhk1ibq34qk6sp3bhtox1-wpengine.netdna-ssl.com/wp-content/uploads/imedidata-information.png"><br>
+			<a href="https://leonard246.github.io/FCC-Projects-Build-Technical-Documentation-Page/" target="_blank">Technical Documentation Page</a>
+		</div>
+		<div>
+			<img src="https://cloud.githubusercontent.com/assets/15967809/17642774/7d091806-6171-11e6-8d47-ecf2f2833fe2.png" target="_blank"><br>
+			<a href="#">Wikipedia Viewer (coming soon)</a>
+		</div>
+		<div>
+			<img src="https://cloud.githubusercontent.com/assets/15967809/17642772/7d02406c-6171-11e6-8c79-40a2933163dc.png" target="_blank"><br>
+			<a href="#">JavaScript Calculator (coming soon)</a>
+		</div>
 	</div>
+	<br><br>
+	<div id="contact" class="centralise">
+		<div>
+			<h1>Let's work together...</h1>
+		</div>
+	<br><br>
+	</div>
+		<div id="profileContainer"> 
+			<img class="centralise" src="https://cdn-images-1.medium.com/max/2000/1*CmjmgiI3Sr6oByNZ81pkhQ.jpeg">
+			<img class="centralise" src="https://miro.medium.com/max/850/1*eDaRLwBlwmjCpkeeqRM4vw.png">
+			<a id="profile-link" href="https://github.com/leonard246" target="_blank">GitHub</a>
+			<a id="profile-link" href="https://www.freecodecamp.org/leonard246" target="_blank">FCC Profile</a>
+		</div>
+	</div>
+	<footer class="centralise">
+		**This is just a fake portfolio.. All the projects and contact details given are not real..<br>
+		Created for a FCC project - <a href="https://github.com/leonard246">leonard246</a>
+	</footer>
 </body>
 </html>
